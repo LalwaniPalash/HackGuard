@@ -2,7 +2,7 @@
 
 HackGuard is a Python-based automated web security scanner designed for ethical hacking, penetration testing, and educational purposes. It scans websites, APIs, and local web apps for vulnerabilities like SQL Injection, XSS, CSRF, and open ports. The tool leverages OWASP ZAP, Nmap, and DNS/WHOIS lookups.
 
-## 🚀 Features
+## Features
 
 * Automated OWASP ZAP Vulnerability Scan (SQLi, XSS, CSRF, etc.)
 * Port Scanning with Nmap
@@ -11,7 +11,7 @@ HackGuard is a Python-based automated web security scanner designed for ethical 
 * CLI Interface
 * IP reputation check (Optional with AbuseIPDB/IPInfo)
 
-## 📦 Tech Stack
+## Tech Stack
 
 * Python 3
 * OWASP ZAP API
@@ -22,7 +22,7 @@ HackGuard is a Python-based automated web security scanner designed for ethical 
 * SQLite (Optional for logging)
 * dotenv (for API key management)
 
-## 🔨 Installation
+## Installation
 
 1. **Clone the repository**
 
@@ -55,7 +55,7 @@ brew install nmap      # macOS
         zap.bat   # Windows
         ```
 
-## 🔑 Getting ZAP API Key
+## Getting ZAP API Key
 
 1. Open ZAP GUI
 2. Go to `Tools` → `Options` → `API`
@@ -67,7 +67,7 @@ brew install nmap      # macOS
 ZAP_API_KEY=your_zap_api_key
 ```
 
-## ⚙️ Running the Tool
+## Running the Tool
 
 ```
 python hackguard.py
@@ -75,27 +75,27 @@ python hackguard.py
 
 You'll be prompted to enter a target URL (e.g., `http://testphp.vulnweb.com`).
 
-## 📑 Output
+## Output
 
 * `HackGuard_Report.pdf` \- Detailed PDF report with vulnerabilities\, ports\, and DNS info
 * `HackGuard_Report.csv` \- CSV format report
 
-## 🌐 Example Test Targets (Ethical Only)
+## Example Test Targets (Ethical Only)
 
 * http://testphp.vulnweb.com
 * http://zero.webappsecurity.com
 * http://scanme.nmap.org (For port scan only)
 
-## 📜 License
+## License
 
 This project is licensed under the [The Unlicense](https://unlicense.org/).
 
-## ❗ Disclaimer
+## Disclaimer
 
 * For **educational purposes only**.
 * Do **NOT scan websites without permission**.
 * Use only on **legal targets** or within authorized environments.
 
-## 🤝 Contributions
+## Contributions
 
 Pull requests are welcome! Feel free to fork the repository and submit improvements.
