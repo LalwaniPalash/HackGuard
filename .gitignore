@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+__pycache__/
+reports/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Reports and generated files
+*.pdf
+*.csv
+
+# Bytecode and compiled files
+*.so
+*.dll
+*.dylib
