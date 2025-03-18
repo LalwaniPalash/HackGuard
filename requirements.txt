@@ -1,0 +1,7 @@
+requests 
+python-nmap 
+ipinfo
+python-owasp-zap-v2.4
+reportlab
+whoisdomain
+dnspython
